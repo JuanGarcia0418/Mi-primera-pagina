@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.navegacion{
+    width: 900px ;
+    background: black;
+    position: absolute;
+    margin-top:5px;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color:white;
+    font-family: open sans;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.menu li a:hover{
+    color: #FF5722;
+    transition:all .3s;
+    background: #263238;
+}
+.cabeza img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 170px;
+    margin-top: -40px;
+    }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabeza img:hover{
+    transition:all .3s;
+    background: #263238;
+}
+.cabeza{
+    text-align: right;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+body{
+    background: url(../images/contacto.jpg);
+}
+.Centro{
+    width: 900px;
+    margin :auto;
+    margin-top: 75px;
+    padding: 30px;
+    text-align: center;
+    font-size: 100px;
+    color:#FF5722;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.Parrafo{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color:white;
+    font-size: 20px;
+}
+.segundoparrafo{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif ;
+    color:#95A5A6  ;
+    font-size: 15px;
+    opacity: .7;
+    margin-top: 50px
+}
+.redes{
+    width: 300x ;
+    position: absolute;
+    margin-top:20px;
+    margin-left: 550px;
+}
+.redes ul{
+    list-style: none;
+}
+.menur > li{
+    position: relative;
+    display: inline-block;
+}
+.menur > li > a {
+    display: block;
+    padding: 15px 20px;
+}
+.menur li a:hover{
+    transition:all .3s;
+    background: #FF5722;
+}
